@@ -1,0 +1,20 @@
+# client A
+python3 tcp_client.py A 10 3
+
+output:
+Received data: pong
+Received data: pong
+Received data: pong
+Disconnected from server.
+
+
+#client B
+python3 tcp_client.py B 10 5
+
+output:
+Received data: pong
+Received data: pong
+Received data: pong
+Received data: pong
+Received data: pong
+Disconnected from server.
